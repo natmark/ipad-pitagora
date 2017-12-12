@@ -28,6 +28,12 @@ ProcessingKit written in Swift🐧 and you can write like [processing](https://g
 ## Demo
 ![Demo](https://github.com/natmark/ProcessingKit/blob/master/Resources/demo.gif?raw=true)
 
+## Requirements
+- Xcode8.3
+- Swift3.x
+
+Future release version 1.0.0 will supports Swift4 
+
 ## Usage
 1. Create custom class that inherits from ProcessingView
 
@@ -36,8 +42,10 @@ import ProcessingKit
 
 class SampleView: ProcessingView {
     func setup() {
+        // The setup() function is run once, when the program starts.
     }
     func draw() {
+        // Called directly after setup(), the draw() function continuously executes the lines of code contained inside its block until the program is stopped or noLoop() is called.
     }
 }
 ```
@@ -45,7 +53,7 @@ class SampleView: ProcessingView {
 2. Create a SampleView instance
 ### Create programmatically
 ```Swift
-    lazy var sampleView:SampleView = {
+    lazy var sampleView: SampleView = {
         let sampleView = SampleView(frame: frame)
         sampleView.isUserInteractionEnabled = true // If you want to use touch events (default true)
         return sampleView
@@ -55,8 +63,6 @@ class SampleView: ProcessingView {
 ### Use StoryBoard
 
 Connect the UIImageView to SampleView Class 
-
-![ScreenShot](https://github.com/natmark/ProcessingKit/blob/master/Resources/Storyboard-Usage.png?raw=true)
 
 ```Swift
  @IBOutlet weak var sampleView: SampleView!
@@ -75,11 +81,15 @@ Add the following to your `Podfile`:
   pod "ProcessingKit"
 ```
 
+- (Example project here: [PKPodsExample](https://github.com/natmark/PKPodsExample))
+
 ### [Carthage](https://github.com/Carthage/Carthage)
 Add the following to your `Cartfile`:
 ```
   github "natmark/ProcessingKit"
 ```
+
+- (Example project here: [PKExample](https://github.com/natmark/PKExample))
 
 ## License
 ProcessingKit is available under the MIT license. See the LICENSE file for more info.

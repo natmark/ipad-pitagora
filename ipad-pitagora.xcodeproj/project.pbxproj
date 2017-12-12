@@ -13,6 +13,15 @@
 		E72949271FDD778900D7DBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72949261FDD778900D7DBED /* Assets.xcassets */; };
 		E729492A1FDD778900D7DBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72949281FDD778900D7DBED /* LaunchScreen.storyboard */; };
 		E72949351FDD778900D7DBED /* ipad_pitagoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72949341FDD778900D7DBED /* ipad_pitagoraTests.swift */; };
+		E729499E1FE010DD00D7DBED /* ProcessingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E729499C1FE010DD00D7DBED /* ProcessingKit.framework */; };
+		E72949A11FE011BD00D7DBED /* PitagoraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72949A01FE011BD00D7DBED /* PitagoraView.swift */; };
+		E72949A61FE013A800D7DBED /* Scene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72949A51FE013A800D7DBED /* Scene1.swift */; };
+		E72949A91FE01AB500D7DBED /* Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72949A81FE01AB500D7DBED /* Lerp.swift */; };
+		E72949AB1FE01CD400D7DBED /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72949AA1FE01CD400D7DBED /* Countable.swift */; };
+		E72949AD1FE01EBB00D7DBED /* Scene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72949AC1FE01EBB00D7DBED /* Scene2.swift */; };
+		E78FFEAF1FE02481006787C4 /* simple_tween.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E729499B1FE010DC00D7DBED /* simple_tween.framework */; };
+		E78FFEB11FE03E1F006787C4 /* Scene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FFEB01FE03E1F006787C4 /* Scene3.swift */; };
+		E78FFEB31FE0404B006787C4 /* Scene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FFEB21FE0404B006787C4 /* Scene4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		E72949301FDD778900D7DBED /* ipad-pitagoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ipad-pitagoraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72949341FDD778900D7DBED /* ipad_pitagoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipad_pitagoraTests.swift; sourceTree = "<group>"; };
 		E72949361FDD778900D7DBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E729499B1FE010DC00D7DBED /* simple_tween.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = simple_tween.framework; path = Carthage/Build/iOS/simple_tween.framework; sourceTree = "<group>"; };
+		E729499C1FE010DD00D7DBED /* ProcessingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcessingKit.framework; path = Carthage/Build/iOS/ProcessingKit.framework; sourceTree = "<group>"; };
+		E72949A01FE011BD00D7DBED /* PitagoraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitagoraView.swift; sourceTree = "<group>"; };
+		E72949A51FE013A800D7DBED /* Scene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene1.swift; sourceTree = "<group>"; };
+		E72949A81FE01AB500D7DBED /* Lerp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lerp.swift; sourceTree = "<group>"; };
+		E72949AA1FE01CD400D7DBED /* Countable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countable.swift; sourceTree = "<group>"; };
+		E72949AC1FE01EBB00D7DBED /* Scene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene2.swift; sourceTree = "<group>"; };
+		E78FFEB01FE03E1F006787C4 /* Scene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3.swift; sourceTree = "<group>"; };
+		E78FFEB21FE0404B006787C4 /* Scene4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78FFEAF1FE02481006787C4 /* simple_tween.framework in Frameworks */,
+				E729499E1FE010DD00D7DBED /* ProcessingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +82,7 @@
 				E729491E1FDD778900D7DBED /* ipad-pitagora */,
 				E72949331FDD778900D7DBED /* ipad-pitagoraTests */,
 				E729491D1FDD778900D7DBED /* Products */,
+				E729499A1FE010DC00D7DBED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +100,10 @@
 			children = (
 				E729491F1FDD778900D7DBED /* AppDelegate.swift */,
 				E72949211FDD778900D7DBED /* ViewController.swift */,
+				E72949A01FE011BD00D7DBED /* PitagoraView.swift */,
+				E72949A81FE01AB500D7DBED /* Lerp.swift */,
+				E72949AA1FE01CD400D7DBED /* Countable.swift */,
+				E72949A21FE012C200D7DBED /* Scenes */,
 				E72949231FDD778900D7DBED /* Main.storyboard */,
 				E72949261FDD778900D7DBED /* Assets.xcassets */,
 				E72949281FDD778900D7DBED /* LaunchScreen.storyboard */,
@@ -96,6 +121,26 @@
 			path = "ipad-pitagoraTests";
 			sourceTree = "<group>";
 		};
+		E729499A1FE010DC00D7DBED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E729499C1FE010DD00D7DBED /* ProcessingKit.framework */,
+				E729499B1FE010DC00D7DBED /* simple_tween.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72949A21FE012C200D7DBED /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E72949A51FE013A800D7DBED /* Scene1.swift */,
+				E72949AC1FE01EBB00D7DBED /* Scene2.swift */,
+				E78FFEB01FE03E1F006787C4 /* Scene3.swift */,
+				E78FFEB21FE0404B006787C4 /* Scene4.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +151,7 @@
 				E72949181FDD778800D7DBED /* Sources */,
 				E72949191FDD778800D7DBED /* Frameworks */,
 				E729491A1FDD778800D7DBED /* Resources */,
+				E729499F1FE010E700D7DBED /* [Carthage] Run Script */,
 			);
 			buildRules = (
 			);
@@ -194,12 +240,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E729499F1FE010E700D7DBED /* [Carthage] Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ProcessingKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/simple_tween.framework",
+			);
+			name = "[Carthage] Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E72949181FDD778800D7DBED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78FFEB11FE03E1F006787C4 /* Scene3.swift in Sources */,
 				E72949221FDD778900D7DBED /* ViewController.swift in Sources */,
+				E78FFEB31FE0404B006787C4 /* Scene4.swift in Sources */,
+				E72949A91FE01AB500D7DBED /* Lerp.swift in Sources */,
+				E72949A61FE013A800D7DBED /* Scene1.swift in Sources */,
+				E72949AB1FE01CD400D7DBED /* Countable.swift in Sources */,
+				E72949AD1FE01EBB00D7DBED /* Scene2.swift in Sources */,
+				E72949A11FE011BD00D7DBED /* PitagoraView.swift in Sources */,
 				E72949201FDD778900D7DBED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +427,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "ipad-pitagora/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.natmark.ipad-pitagora";
@@ -370,6 +446,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "ipad-pitagora/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.natmark.ipad-pitagora";
